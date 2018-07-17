@@ -1,6 +1,6 @@
  Shiny application that uses simulated annealing to solve the famous traveling salesman problem.
 
-#How does the simulated annealing process work?#
+# How does the simulated annealing process work?
 
 We start by picking an arbitrary initial tour from the set of all valid tours. From that initial tour we ¡°move around¡± and check random neighboring tours to see how good they are. There are so many valid tours¡ª(47! / 2), to be exact¡ªthat we won¡¯t be able to test every possible solution. But a well-designed annealing process eventually reaches a solution that, if it is not the global optimum, is at least good enough. Here¡¯s a step-by-step guide:
 
